@@ -126,3 +126,105 @@ header {
   font-size: 1.8rem;
   color: #fff;
 }
+/*     */
+
+main {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.main-title_subheading {
+  color: #00ed82;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  padding-top: 7rem;
+}
+.main-title_heading {
+  font-size: 4rem;
+  margin-bottom: 2.5rem;
+}
+.main-title_explanation {
+  font-size: 2rem;
+  padding-bottom: 2.5rem;
+  width: 55%;
+  margin: 0 auto;
+}
+.main-cards {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 7.5rem;
+  padding-right: 7.5rem;
+}
+.main-card {
+  height: 44.5rem;
+  width: 30rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.c1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./Assets/fguy.png");
+  background-size: contain;
+}
+.c2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./Assets/prey.jpeg");
+}
+.c3 {
+  background-image: url(./Assets/M-Building.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./Assets/M-Building.png");
+}
+.c4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./Assets/sopranos.png");
+}
+.main-card p {
+  padding-bottom: 1rem;
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.main-card h3 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.main-footer_link {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 1.5rem 2.5rem;
+  background-color: #00ed82;
+  color: #000;
+  text-decoration: none;
+  border-radius: 7px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.main-footer_pricing {
+  font-size: 1rem;
+  padding-top: 2rem;
+  color: #a8afbd;
+  width: 54%;
+  margin: 0 auto;
+}
+.main-footer_pricinglink {
+  color: #a8afbd;
+}
+.channels-link {
+  display: inline-block;
+  font-size: 2rem;
+  color: #fff;
+  margin-top: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 9rem;
+}
