@@ -216,7 +216,8 @@ main {
   width: 54%;
   margin: 0 auto;
 }
-.main-footer_pricinglink {
+.main-footer_pricinglink,
+.sports-termslink {
   color: #a8afbd;
 }
 .channels-link {
@@ -227,4 +228,71 @@ main {
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 9rem;
+}
+/**/
+
+.sports {
+  background-image: url(./Assets/live-sports.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 85rem;
+  width: 100%;
+  color: #fff;
+}
+.sports-content {
+  padding-top: 18rem;
+
+  padding-left: 18rem;
+  width: 50%;
+  align-items: left;
+}
+.categories {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  list-style: none;
+}
+.categories a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+  display: inline-block;
+  color: #fff;
+}
+.Active {
+  border-bottom: 5px solid #fff;
+}
+.sports-title {
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.sports-info {
+  font-size: 2rem;
+}
+.sports-logos {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3.5rem;
+  margin-top: 2.5rem;
+}
+.sports-logocontainer {
+  height: 5.5rem;
+  width: 5.5rem;
+  background-color: #fff;
+  border-radius: 50%;
+  align-items: center;
+  overflow: hidden;
+}
+.logo {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.sports-terms {
+  font-size: 1rem;
+  color: #a8afbd;
 }
