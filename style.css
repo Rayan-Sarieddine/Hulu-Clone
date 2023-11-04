@@ -43,7 +43,14 @@ header {
   font-weight: 600;
   letter-spacing: 0.06rem;
   color: #a8afbd;
-  padding: 0 1.6rem;
+  margin-right: 1.7rem;
+  transition: 0.3s;
+  padding: 1.2rem 2.4rem;
+  margin-top: -1.2rem;
+}
+.nav-login:hover {
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 .nav-cards {
   display: flex;
@@ -80,6 +87,10 @@ header {
   border-radius: 4px;
   font-weight: 700;
   font-size: 1.4rem;
+  transition: 0.3s;
+}
+.nav-card_CTA:hover {
+  opacity: 0.8;
 }
 .nav-card_img {
   object-fit: contain;
@@ -295,4 +306,233 @@ main {
 .sports-terms {
   font-size: 1rem;
   color: #a8afbd;
+}
+
+/**/
+.plans {
+  background-color: #000;
+  width: 100%;
+  height: 200rem;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 8rem;
+}
+.plan-title {
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+.plan-title_detail1 {
+  font-size: 2rem;
+  margin-bottom: 0.1rem;
+}
+.plan-title_detail2 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+.line {
+  height: 2px;
+  width: 100rem;
+  margin: 5rem auto;
+  opacity: 0.5;
+}
+.pricing-intros {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.pricing-intro_s1 {
+  display: flex;
+  gap: 2rem;
+}
+.base-plan_img {
+  height: 4rem;
+  width: auto;
+}
+.first {
+  height: 1rem;
+  width: auto;
+  margin-top: 1rem;
+}
+.second {
+  height: 2rem;
+  width: auto;
+}
+.base-plan_img img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.pricing-intro {
+  width: 30rem;
+}
+.base-plan_title {
+  font-weight: 700;
+  white-space: nowrap;
+}
+.mostpopular {
+  color: #000;
+  display: inline-block;
+  background-color: #00ed82;
+  padding: 10.5px 27px;
+  border-radius: 20px;
+  font-size: 1rem;
+  letter-spacing: 2.2px;
+  margin-bottom: 2rem;
+}
+.spec2 {
+  font-weight: 800;
+}
+.pricing-button {
+  display: inline-block;
+  padding: 20.5px 90px;
+  border-radius: 10px;
+  background-color: rgb(244, 246, 249);
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+.pricing-intro_s3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+/*source for slider: https://www.w3schools.com/howto/howto_css_switch.asp*/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+input:checked + .slider {
+  background-color: #00ed82;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #00ed82;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/*source for slider: https://www.w3schools.com/howto/howto_css_switch.asp*/
+.detailed-prices {
+  display: flex;
+  justify-content: center;
+  gap: 20rem;
+  flex-grow: 0;
+}
+/**/
+footer {
+  background-color: #e8eaed;
+  width: 100%;
+  height: 50rem;
+  padding: 5rem 17rem;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-links a {
+  display: block;
+  color: #444343c8;
+  font-size: 1.4rem;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+.footer-links p {
+  font-size: 1.35rem;
+  color: #000;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+.line2 {
+  height: 2px;
+  width: 120rem;
+  margin: 5rem auto;
+  opacity: 0.5;
+  margin-top: 10rem;
+}
+.social-div img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.social-div {
+  height: 2rem;
+}
+.social {
+  display: flex;
+  gap: 2rem;
+}
+
+.final-links {
+  display: flex;
+  gap: 2rem;
+  margin-top: 3rem;
+  white-space: nowrap;
+}
+.link-footer {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.play-img img {
+  object-fit: contain;
+  width: 2rem;
+  height: 2rem;
+}
+.play-img {
+  height: 2rem;
+}
+.final-links a,
+.link-footer a,
+.final-links p {
+  display: block;
+  color: #444343c8;
+  font-size: 1.2rem;
+  text-decoration: none;
+  margin-bottom: 1rem;
 }
