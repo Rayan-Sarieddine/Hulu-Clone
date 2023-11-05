@@ -13,6 +13,8 @@ body {
   font-family: "Rubic", sans-serif;
   overflow-x: hidden;
 }
+
+/*header section*/
 .hero {
   width: 100%;
 }
@@ -165,8 +167,8 @@ header {
   border: 2px solid #ccc;
   color: #000;
 }
-/*     */
 
+/*main section*/
 main {
   width: 100%;
   background-color: #0b0c0f;
@@ -312,8 +314,8 @@ main {
   font-weight: 700;
   margin-bottom: 9rem;
 }
-/**/
 
+/*sports section*/
 .sports {
   background-image: linear-gradient(
       to left,
@@ -395,7 +397,7 @@ main {
   color: #a8afbd;
 }
 
-/**/
+/*plans section*/
 .plans {
   background-color: #0b0c0f;
   width: 100%;
@@ -615,7 +617,8 @@ input:checked + .slider:before {
 .tick {
   height: 1.6rem;
 }
-/**/
+
+/*footer section*/
 footer {
   background-color: #e8eaed;
   width: 100%;
@@ -687,6 +690,8 @@ footer {
   text-decoration: none;
   margin-bottom: 1rem;
 }
+
+/*queries*/
 @media (max-width: 900px) {
   .main-cards {
     flex-direction: column;
