@@ -18,6 +18,9 @@ body {
 .hero {
   width: 100%;
 }
+.container {
+  width: 100vw;
+}
 header {
   width: 100vw;
   height: 90vh;
@@ -117,6 +120,10 @@ header {
   width: 60%;
   align-items: center;
   margin: 0 auto;
+}
+
+.hero-bottom_links {
+  width: 100%;
 }
 .terms,
 .signup {
@@ -704,5 +711,60 @@ footer {
   }
   .hero {
     width: 100%;
+  }
+  .nav-cards {
+    gap: 10rem;
+    margin-top: 0;
+  }
+  .card {
+    width: 50%;
+  }
+  .sports-content {
+    padding-top: 2rem;
+
+    padding-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .sports-logos {
+    justify-content: center;
+  }
+  .categories {
+    justify-content: center;
+  }
+  .sports-title {
+    text-align: center;
+  }
+  .sports-info {
+    margin: 0 auto;
+  }
+  .links {
+    gap: 2rem;
+    justify-content: center;
+  }
+}
+@media (max-width: 400px) {
+  .nav-cards {
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .card {
+    width: 100%;
+  }
+  .links {
+    flex-direction: column;
+    width: 100%;
+  }
+  .footer-links a {
+    width: 100%;
+  }
+  .footer {
+    padding: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .pricing-intros {
+    flex-direction: column;
+    text-align: center;
   }
 }
