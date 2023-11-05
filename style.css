@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   font-size: 62.5%;
 }
@@ -18,20 +19,26 @@ body {
 header {
   width: 100vw;
   height: 90vh;
-  background-image: url(./Assets/hero.jpeg);
+  background-image: linear-gradient(
+      135deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("./Assets/hero.jpeg");
   background-size: cover;
+  background-position: -80px 0px;
 }
 .nav {
-  padding: 3rem 3rem;
   display: flex;
   justify-content: space-between;
-  height: 7.4rem;
   width: 100%;
+  padding: 4rem;
 }
 .nav-logo {
   background-image: url(./Assets/hulu-logo.svg);
   height: 2.4rem;
   width: 6.1rem;
+  margin: -1.2rem -0.5rem;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -44,7 +51,7 @@ header {
   color: #a8afbd;
   /* margin-right: 1.7rem; */
   transition: 0.3s;
-  padding: 1.9rem 2.9rem;
+  padding: 1rem 2rem;
   margin-top: -1.9rem;
   margin-right: 1rem;
   border-radius: 6px;
@@ -58,19 +65,20 @@ header {
   justify-content: center;
   margin-top: 12rem;
   text-align: center;
+  padding: 0.5rem 3rem;
 }
 .card {
   width: 40rem;
 }
 .nav-card_title {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   color: #00ed82;
   margin-bottom: 2rem;
 }
 .nav-card_price {
-  font-size: 2.4rem;
-  font-weight: 700;
+  font-size: 2.3rem;
+  font-weight: 600;
   line-height: 1.24;
   color: #fff;
   margin-top: 1rem;
@@ -78,13 +86,13 @@ header {
 .nav-card_CTA {
   text-decoration: none;
   padding: 1rem 9rem;
-  color: #333;
+  color: #040405;
   background-color: #00ed82;
   text-transform: uppercase;
   display: inline-block;
   margin-top: 2rem;
   border-radius: 4px;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1.4rem;
   transition: 0.3s;
 }
@@ -133,9 +141,11 @@ header {
 }
 .header-continue h1 {
   font-size: 1.8rem;
-  margin-bottom: 3.2rem;
+  margin-bottom: 2.6rem;
   color: #fff;
-  padding-top: 2rem;
+  font-weight: 700;
+  padding-top: 2.6rem;
+  letter-spacing: 0.5px;
   text-transform: uppercase;
 }
 .header-continue a {
@@ -238,15 +248,26 @@ main {
   position: absolute;
   bottom: -3rem;
   right: 14.5rem;
+  color: #a8afbd;
+  opacity: 0.9;
+}
+.main-cards a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
 }
 .main-card p {
+  font-weight: 600;
+  font-size: 2rem;
   padding-bottom: 1rem;
   padding-top: 1.5rem;
-  padding-left: 1rem;
+  padding-left: 1.8rem;
   padding-right: 1rem;
 }
 .main-card h3 {
-  padding-left: 1rem;
+  font-weight: 600;
+  font-size: 2rem;
+  padding-left: 1.8rem;
   padding-right: 1rem;
 }
 
@@ -279,8 +300,9 @@ main {
 }
 .channels-link {
   display: inline-block;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #fff;
+  opacity: 0.8;
   margin-top: 2rem;
   text-transform: uppercase;
   font-weight: 700;
@@ -289,7 +311,12 @@ main {
 /**/
 
 .sports {
-  background-image: url(./Assets/live-sports.jpeg);
+  background-image: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("./Assets/live-sports.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 85rem;
@@ -300,7 +327,7 @@ main {
   padding-top: 18rem;
 
   padding-left: 18rem;
-  width: 50%;
+  width: 45%;
   align-items: left;
 }
 .categories {
@@ -560,7 +587,7 @@ input:checked + .slider:before {
 }
 .addons {
   text-decoration: none;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   color: #fff;
 }
 .down-arrow img {
