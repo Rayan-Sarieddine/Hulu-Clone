@@ -188,19 +188,19 @@ main {
 }
 .main-title_subheading {
   color: #00ed82;
-  font-size: 1.2rem;
+  font-size: 1.45rem;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 2rem;
   padding-top: 7rem;
 }
 .main-title_heading {
-  font-size: 4rem;
+  font-size: 4.45rem;
   margin-bottom: 2.5rem;
 }
 .main-title_explanation {
   font-size: 2rem;
-  padding-bottom: 2.5rem;
+  padding-bottom: 4.2rem;
   width: 55%;
   margin: 0 auto;
 }
@@ -314,7 +314,7 @@ main {
 }
 .channels-link {
   display: inline-block;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: #fff;
   opacity: 0.8;
   margin-top: 2rem;
@@ -338,9 +338,9 @@ main {
   color: #fff;
 }
 .sports-content {
-  padding-top: 18rem;
+  padding-top: 22rem;
 
-  padding-left: 18rem;
+  padding-left: 26rem;
   width: 45%;
   align-items: left;
 }
